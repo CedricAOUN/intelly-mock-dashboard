@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelly - Dashboard</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="search"> 
+        <input placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <ul>
+        <li><i class="circle-avatar fa-solid fa-burger"></i></li>
+        <li><a class="account-name">Delicious burger</a></li>
+        <li><i class="fa-solid fa-bell"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img class="logo" src="assets/logotype.png" alt="logo de intelly">
+    </div>
+    
+    <nav class="side-nav">
+      <h4>MENU</h4>
+      <div class="menu">
+        <a class="menu-btn"><i class="fa-solid fa-table-cells"></i> Dashboard</a>
+        <a class="menu-btn"><i class="fa-solid fa-box"></i> Order</a>
+        <a class="menu-btn"><i class="fa-solid fa-chart-gantt"></i> Report</a>
+        <a class="menu-btn"><i class="fa-solid fa-truck"></i>Track</a>
+        <a class="menu-btn"><i class="fa-solid fa-screwdriver-wrench"></i>Maintenance</a>
+      </div>
+
+      <h4 class="system-title">SYSTEM</h4>
+      <div class="system">
+        <a class="menu-btn"><i class="fa-solid fa-folder-open"></i>Master Data</a>
+        <a class="menu-btn"><i class="fa-solid fa-user"></i>User</a>
+        <a class="menu-btn"><i class="fa-solid fa-users"></i>Role</a>
+      </div>
+    </nav>
+  </aside>
+  
+  <main class="main">
+    <h1 class="page-title">Dashboard</h1>
+    <div class="card-container">
+      <article class="card">
+        <div class="truck-image"><i class="fa-solid fa-truck"></i></div>
+        <div class="card-info">
+          <p class="card-value">2.409 <span>⬆️ 2.1%</span></p>
+          <p class="card-driver">Jumlah Pemesan</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="truck-image"><i class="fa-solid fa-truck"></i></div>
+        <div class="card-info">
+          <p class="card-value">2.409</p>
+          <p class="card-driver">Jumlah Pemesan</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="truck-image"><i class="fa-solid fa-truck"></i></div>
+        <div class="card-info">
+          <p class="card-value">2.409</p>
+          <p class="card-driver">Jumlah Pemesan</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="truck-image"><i class="fa-solid fa-truck"></i></div>
+        <div class="card-info">
+          <p class="card-value">2.409</p>
+          <p class="card-driver">Jumlah Pemesan</p>
+        </div>
+      </article>
+    </div>
+    <div class="statistics">
+      <section class="stat-section">
+        <div class="title-container">
+          <h2>Statistik Pemesanan</h2>
+          <div class="date">
+            <p><i class="fa-solid fa-calendar"></i>18/12/2021</p>
+          </div>
+        </div>
+        <div class="graph-container">
+          <div class="bars">
+            <div class="bar"><div class="filler" style="height: 90%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 30%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 40%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 90%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 90%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 50%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 60%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 90%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 30%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 40%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 70%;"></div></div>
+            <div class="bar"><div class="filler" style="height: 10%;"></div></div>
+          </div>
+          <div class="dates">
+            <p>jan</p>
+            <p>feb</p>
+            <p>mar</p>
+            <p>apr</p>
+            <p>mei</p>
+            <p>jun</p>
+            <p>jul</p>
+            <p>aug</p>
+            <p>sep</p>
+            <p>okt</p>
+            <p>nov</p>
+            <p>dec</p>
+          </div>
+          <div class="values">
+            <p>1000</p>
+            <p>900</p>
+            <p>800</p>
+            <p>700</p>
+            <p>600</p>
+            <p>500</p>
+            <p>400</p>
+            <p>300</p>
+            <p>200</p>
+            <p>100</p>
+            <p>0</p>
+          </div>
+        </div>
+      </section>
+      <section class="customer-section">
+        <div class="title-container">
+          <h2>Customer Pemesan Terbanyak</h2>
+        </div>
+        <div class="customers">
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+          <div class="customer">
+            <p>PT Javan Cipta Solusi</p> 
+            <p>450</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- overview  -->
+    <div class="overview">
+      <div class="overview-title">
+        <h2>Overview Pemesanan</h2>
+        <input placeholder="Search...">
+      </div>
+      <table class="overview-table">
+        <thead>
+          <tr>
+            <td>No</td>
+            <td>Nama Customer</td>
+            <td>Jenis</td>
+            <td>Kuantitas</td>
+            <td>Tanggal Pengiriman</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Brad Simmons</td>
+            <td>Pertamax</td>
+            <td>2000 Liter</td>
+            <td>21 Desember 2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination">
+      <p>Prev</p>
+      <a>1</a>
+      <a>2</a>
+      <a>3</a>
+      <a>4</a>
+      <p>Next</p>
+    </div>
+  </main>
+
+</body>
+</html>
